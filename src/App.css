@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+  background-color: lightgrey;
 }
 
 .App-logo {
@@ -36,3 +38,43 @@
     transform: rotate(360deg);
   }
 }
+
+.navBar {
+  width:  100vw;
+  background-color: darkolivegreen;
+  color: whitesmoke;
+  font-size: 24 px;
+  padding: 10px;
+
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 1em;
+
+}
+
+nav ul li:hover {
+  color: rgba(0,0,0,0.705)
+
+}
+
+nav ul li:active {
+  color: brown;
+
+}
+
+.logIn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  
+}
+
